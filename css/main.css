@@ -489,7 +489,7 @@ section{
     background: var(--black);
     color: var(--white-smoke);
     padding: 2rem 0;
-    height: 50vh;
+    height: 30vh;
 }
 .footer .text{
     opacity: 0.8;
