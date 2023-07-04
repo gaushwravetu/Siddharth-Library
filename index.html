@@ -133,7 +133,8 @@
     <div class="container">
       <div class="row">
         <div class="feature-left wow animate__animated animate__fadeInUp animate__slow">
-          <img style="display: block; margin-left: auto; margin-right: auto; text-align: center; width: 100%;" src="assets/sid.png" alt="">
+          <img style="display: block; margin-left: auto; margin-right: auto; text-align: center; width: 100%;"
+            src="assets/sid.png" alt="">
         </div>
         <div class="feature-right wow animate__animated animate__fadeInUp animate__slow">
           <div class="title">
@@ -220,7 +221,8 @@
   <section class="video" id="video">
     <div class="container">
       <!-- <a class="center popup-youtube" href="https://youtube.com/shorts/uF2r5HLmMHU?feature=share"> -->
-        <video style="display: block; margin: 1em auto; width: 80%; height: calc(.5625*80vw);" controls src="overview.mp4" width="500"></video>
+      <video style="display: block; margin: 1em auto; width: 80%; height: calc(.5625*80vw);" controls src="overview.mp4"
+        width="500"></video>
       </a>
       <h2 class="wow animate__animated animate__fadeInUp animate__slow">Watch Library Video</h2>
       <p class="wow animate__animated animate__fadeInUp animate__slow">Experience the comfort and convenience of these
@@ -498,33 +500,34 @@
         <p class="text">We are available at this location</p>
       </div>
 
-      <!-- <div class="row wow animate__animated animate__fadeInUp animate__slow">
+      <div class="row wow animate__animated animate__fadeInUp animate__slow">
         <div class="contact-left">
           <h2>Send Message Here</h2>
-          <form onsubmit="sendEmail(); reset(); return false;">
-            <input type="text" class="form-control" placeholder="Name">
-            <input type="email" class="form-control" placeholder="Email">
-            <textarea placeholder="Message" rows="6"></textarea>
+          <form name="form" id="contactForm" method="POST" action="https://formspree.io/f/xyyqgqlr">
+            <input name="name" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+            <input name="_replyto" type="email" id="contactEmail" placeholder="Email" value="" required="">
+            <textarea name="message" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
             <button type="submit" class="submit-btn">Send Now</button>
           </form>
-        </div> -->
+        </div>
 
-        <div class="contact-right">
-          <div>
-            <h2>Visit Office</h2>
-            <p class="text">Bus Stand, Classy Fashion Mall,Areraj Road, Near Shri Om TVS Agency Raghunathpur, Motihari, Bihar 845401</p>
+      <div class="contact-right">
+        <div>
+          <h2>Visit Office</h2>
+          <p class="text">Bus Stand, Classy Fashion Mall,Areraj Road, Near Shri Om TVS Agency Raghunathpur, Motihari,
+            Bihar 845401</p>
           </a>
-          </div>
-          <div>
-            <h2>Call Us</h2>
-            <p class="text">9934797520</p>
-          </div>
-          <!-- <div>
+        </div>
+        <div>
+          <h2>Call Us</h2>
+          <p class="text">9934797520</p>
+        </div>
+        <!-- <div>
             <h2>Send Email</h2>
             <p class="text">design.diva@gmail.com</p>
           </div> -->
-        </div>
       </div>
+    </div>
     </div>
   </section>
   <!-- end of contact section -->
@@ -533,14 +536,16 @@
   <footer class="footer center">
     <div class="container">
       <p class="text">Copyright &copy; Siddharth Library | All Rights Reserved (Designed and Created by Gaurav Singh)</p>
+      <!-- <p class="text"><a href="https://www.linkedin.com/in/gaurav-kumar-b9a87a148/" target="_blank"
+          class="navbar-brand1"></a></p> -->
       <div class="footer-links">
-        <a href="https://goo.gl/maps/KSLW8Zap44RfLq736" target="_blank"  class="center">
+        <a href="https://goo.gl/maps/KSLW8Zap44RfLq736" target="_blank" class="center">
           <i class="fab fa-google"></i>
         </a>
         <a href="https://jsdl.in/DT-99Q7W5WI15I" target="_blank" class="center">
           <i class="fa-solid fa-phone-volume"></i>
         </a>
-        <a href="https://www.facebook.com/profile.php?id=100093799363028" class="center">
+        <a href="https://www.facebook.com/profile.php?id=100093799363028" target="_blank" class="center">
           <i class="fab fa-facebook-f"></i>
         </a>
         <!-- <a href="#" class="center">
